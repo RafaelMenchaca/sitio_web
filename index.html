@@ -8,7 +8,8 @@
         <link rel="stylesheet" href="css/estilos.css">               
     </head>
     <body>
-        <header class="header" >            
+        <header class="header" >   
+            <div class="container" >                
                 <figure class="logo" >
                     <img src="images/logo.png" height="50" alt="Logo de https://rafaelmenchaca.com" />
                 </figure>
@@ -25,125 +26,135 @@
                         </li>
                     </ol>
                 </nav>           
+            </div>         
         </header>
         <section class="hero" >
-            <h1>
-                Hola! Soy <strong>Rafael Menchaca</strong> <br> Desarrollador <strong>JavaScript</strong> <br> con pasion para <strong>programar</strong>
-            </h1>
-            <!-- <img src="images/hero.jpg" width="500" height="300" alt="Imagen principal de sitio"/> -->
+            <div class="container">
+                <h1>
+                    Hola! Soy <strong>Rafael Menchaca</strong> <br> Desarrollador <strong>JavaScript</strong> <br> con pasion para <strong>programar</strong>
+                </h1>
+                <img class="hero-image" src="images/hero.jpg" width="500" height="300" alt="Imagen principal de sitio"/>
+            </div>
         </section>
         <section id="portafolio" class="portfolio" >
-            <h2>Portafolio (Proyectos Destacados)</h2>
-            <article class="project" >
-                <div class="project-details" >
-                    <h3 class="project-title">Personal Videos</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/RafaelMenchaca</small></p>
-                    <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Deserunt iusto, cupiditate harum laboriosam architecto dolor! 
-                    Veniam itaque reiciendis quis nesciunt dolores voluptatem, 
-                    odio illum corrupti at quasi corporis voluptatibus neque.</p>                
-                </div>
-                <figure class="project-imageContainer" >
-                    <img  class="project-image" width="500" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
-                </figure>
-            </article>
+            <div class="container">
+                <h2>Portafolio (Proyectos Destacados)</h2>
+                <article class="project" >
+                    <div class="project-details" >
+                        <h3 class="project-title">Personal Videos</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/RafaelMenchaca</small></p>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Deserunt iusto, cupiditate harum laboriosam architecto dolor! 
+                        Veniam itaque reiciendis quis nesciunt dolores voluptatem, 
+                        odio illum corrupti at quasi corporis voluptatibus neque.</p>                
+                    </div>
+                    <figure class="project-imageContainer" >
+                        <img  class="project-image" width="500" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
+                    </figure>
+                </article>
+                <article class="project" >
+                    <div class="project-details" >
+                        <h3 class="project-title">Personal Videos</h3>
+                        <h6 class="project-course">React Native / React</h6>
+                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
+                        <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/RafaelMenchaca</small></p>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Deserunt iusto, cupiditate harum laboriosam architecto dolor! 
+                        Veniam itaque reiciendis quis nesciunt dolores voluptatem, 
+                        odio illum corrupti at quasi corporis voluptatibus neque.</p>                
+                    </div>
+                    <figure class="project-imageContainer" >
+                        <img  class="project-image" width="500" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
+                    </figure>
+                </article>
+            </div>
         </section>
-        <section id="portafolio" class="portfolio" >
-            <h2>Portafolio (Proyectos Destacados)</h2>
-            <article class="project" >
-                <div class="project-details" >
-                    <h3 class="project-title">Personal Videos</h3>
-                    <h6 class="project-course">React Native / React</h6>
-                    <p class="project-date"><small><strong>Fecha:</strong> 01/07/2020</small></p>
-                    <p class="project-url"><small><strong>Puedes verlo en:</strong> https://github.com/RafaelMenchaca</small></p>
-                    <p class="project-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Deserunt iusto, cupiditate harum laboriosam architecto dolor! 
-                    Veniam itaque reiciendis quis nesciunt dolores voluptatem, 
-                    odio illum corrupti at quasi corporis voluptatibus neque.</p>                
-                </div>
-                <figure class="project-imageContainer" >
-                    <img  class="project-image" width="500" src="images/platzi-video-react-native.png" alt="Proyecto del curso de React Native">
-                </figure>
-            </article>
-        </section>
-        <h2 class="event-list-title" >Mas sobre mi experiencia</h2>
+        <div class="container">
+            <h2 class="event-list-title" >Mas sobre mi experiencia</h2>
+        </div>
         <section id="eventos" class="event-list" >
-            <article class="event" >                
-                <figure class="event-imageContainer" >
-                    <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
-                </figure>
-                <div class="event-detail" >
-                    <h3 class="event-title" >PlatziCon Mexico 2018</h3>
-                     <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                     At ea voluptates quidem ad iusto suscipit tempora soluta. 
-                     Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
-                     soluta cumque, voluptas architecto est.</p>
-                     <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
-                </div>                
-            </article>
-            <article class="event" >                
-                <figure class="event-imageContainer" >
-                    <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
-                </figure>
-                <div class="event-detail" >
-                    <h3 class="event-title" >PlatziCon Mexico 2018</h3>
-                     <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                     At ea voluptates quidem ad iusto suscipit tempora soluta. 
-                     Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
-                     soluta cumque, voluptas architecto est.</p>
-                     <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
-                </div>                
-            </article>
-            <article class="event" >                
-                <figure class="event-imageContainer" >
-                    <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
-                </figure>
-                <div class="event-detail" >
-                    <h3 class="event-title" >PlatziCon Mexico 2018</h3>
-                     <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                     At ea voluptates quidem ad iusto suscipit tempora soluta. 
-                     Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
-                     soluta cumque, voluptas architecto est.</p>
-                     <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
-                </div>                
-            </article>
-            <article class="event" >                
-                <figure class="event-imageContainer" >
-                    <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
-                </figure>
-                <div class="event-detail" >
-                    <h3 class="event-title" >PlatziCon Mexico 2018</h3>
-                     <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                     At ea voluptates quidem ad iusto suscipit tempora soluta. 
-                     Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
-                     soluta cumque, voluptas architecto est.</p>
-                     <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
-                </div>                
-            </article>
+            <div class="container">
+                <article class="event" >                
+                    <figure class="event-imageContainer" >
+                        <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
+                    </figure>
+                    <div class="event-detail" >
+                        <h3 class="event-title" >PlatziCon Mexico 2018</h3>
+                         <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                         At ea voluptates quidem ad iusto suscipit tempora soluta. 
+                         Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
+                         soluta cumque, voluptas architecto est.</p>
+                         <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
+                    </div>                
+                </article>
+                <article class="event" >                
+                    <figure class="event-imageContainer" >
+                        <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
+                    </figure>
+                    <div class="event-detail" >
+                        <h3 class="event-title" >PlatziCon Mexico 2018</h3>
+                         <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                         At ea voluptates quidem ad iusto suscipit tempora soluta. 
+                         Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
+                         soluta cumque, voluptas architecto est.</p>
+                         <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
+                    </div>                
+                </article>
+                <article class="event" >                
+                    <figure class="event-imageContainer" >
+                        <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
+                    </figure>
+                    <div class="event-detail" >
+                        <h3 class="event-title" >PlatziCon Mexico 2018</h3>
+                         <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                         At ea voluptates quidem ad iusto suscipit tempora soluta. 
+                         Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
+                         soluta cumque, voluptas architecto est.</p>
+                         <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
+                    </div>                
+                </article>
+                <article class="event" >                
+                    <figure class="event-imageContainer" >
+                        <img  class="event-image" src="images/platzi-conf.jpg" width="500" />
+                    </figure>
+                    <div class="event-detail" >
+                        <h3 class="event-title" >PlatziCon Mexico 2018</h3>
+                         <p class="event-description" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                         At ea voluptates quidem ad iusto suscipit tempora soluta. 
+                         Eum, tenetur voluptatum, repellat voluptates iure amet cupiditate 
+                         soluta cumque, voluptas architecto est.</p>
+                         <a class="event-url" href="https://www.youtube.com/watch?v=5f5Ig_U2Bpk" target="_blank" >Ver platica</a>
+                    </div>                
+                </article>
+            </div>
         </section>
         <section id="contacto" class="contact">
-            <form action="/suscripcion/" class="form-email" >
-                <h3>Creamos algo juntos?</h3>
-                <input type="text" placeholder="Dejame tu email" id="email" >
-                <button>Enviar</button>
-            </form>
-            <div class="social">
-                <a href="https://twitter.com/RafaelMenchac14" class="social-link twitter" ></a>
-                <a href="https://www.facebook.com/rafael.menchaca.39982" class="social-link facebook" ></a>
-                <a href="https://github.com/RafaelMenchaca" class="social-link github" ></a>
-                <a href="https://www.instagram.com/rafael_menchaca2/" class="social-link instagram" ></a>
+            <div class="container">
+                <form action="/suscripcion/" class="form-email" >
+                    <h3>Creamos algo juntos?</h3>
+                    <input type="text" placeholder="Dejame tu email" id="email" >
+                    <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://twitter.com/RafaelMenchac14" class="social-link twitter" ></a>
+                    <a href="https://www.facebook.com/rafael.menchaca.39982" class="social-link facebook" ></a>
+                    <a href="https://github.com/RafaelMenchaca" class="social-link github" ></a>
+                    <a href="https://www.instagram.com/rafael_menchaca2/" class="social-link instagram" ></a>
+                </div>
             </div>
         </section>
         <footer class="footer" >
-            <div>
-                <p>Curso de desalloro web online 2018 <img src="images/platzi.png"  width="80" alt=""> </p>
-            </div>
-            <div>
-                <p>
-                    Designed with <\3 by <a href="https://github.com/RafaelMenchaca" > NanitaUwU </a>
-                </p>
+            <div class="container">
+                <div>
+                    <p>Curso de desalloro web online 2018 <img src="images/platzi.png"  width="80" alt=""> </p>
+                </div>
+                <div>
+                    <p>
+                        Designed with <\3 by <a href="https://github.com/RafaelMenchaca" > NanitaUwU </a>
+                    </p>
+                </div>
             </div>
         </footer>
     </body>
