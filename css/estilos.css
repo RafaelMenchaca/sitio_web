@@ -250,6 +250,7 @@ h2 {
     display: inline-block;
     width: 50px;
     height: 50px;
+    margin: 0 10px;
     background-size: 50px 50px;
 }
 
@@ -273,10 +274,24 @@ h2 {
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
-    padding: 5px 20px 5px 25px;
+    padding: 10px 20px 10px 25px;
     background-image: url('../images/envelope.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
